@@ -1,0 +1,26 @@
+{
+  "city": "Chennai",
+  "models": {
+    "lstm": {
+      "mae": 3.57,
+      "rmse": 6.03,
+      "r2": 0.905
+    },
+    "xgboost": {
+      "mae": 3.69,
+      "rmse": 5.67,
+      "r2": 0.9384
+    },
+    "arima": {
+      "mae": 3.64,
+      "rmse": 4.66,
+      "r2": 0.8231
+    },
+    "ensemble": {
+      "mae": 3.03,
+      "rmse": 4.05,
+      "r2": 0.9666
+    }
+  },
+  "ensemble_accuracy": 96.7
+}

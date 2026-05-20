@@ -1,0 +1,38 @@
+# CrowdIQ Python ML Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core ML
+torch>=2.0.0
+xgboost>=2.0.0
+scikit-learn>=1.3.0
+statsmodels>=0.14.0      # ARIMA
+
+# Data
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# Utilities
+joblib>=1.3.0
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Visualization (optional)
+matplotlib>=3.7.0
+
+# Web Framework
+flask>=3.0.0
+flask-cors>=4.0.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# API serving (optional — for Flask backend)
+flask>=3.0.0
+flask-cors>=4.0.0
+gunicorn>=21.0.0
+
+# AI Integration & APIs
+anthropic>=0.28.0        # Claude AI API
+python-dotenv>=1.0.0     # Environment variable management
+requests>=2.31.0         # HTTP requests for Google Maps API
